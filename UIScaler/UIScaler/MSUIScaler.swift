@@ -15,8 +15,8 @@ import Foundation
 
 @objc public extension MSUIScaler {
 
-    func valueFor(x: CGFloat) -> CGFloat {
-        scaler.valueFor(.val(Double(x)))
+    func valueFor(_ refVal: CGFloat) -> CGFloat {
+        scaler.valueFor(.val(Double(refVal)))
     }
 }
 
