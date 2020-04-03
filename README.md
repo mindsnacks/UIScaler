@@ -9,6 +9,11 @@ To integrate UIScaler, add the following to your  `Cartfile`.
 github "mindsnack/UIScaler" ~> 0.1.0
 ```
 
+Since this is a private reposity, you made need to add `--use-ssh` to Carthage update commands.
+```
+carthage update UIScaler --use-ssh --platform Mac
+```
+
 ## TODO
  - Usage documentation
  - Unit tests
