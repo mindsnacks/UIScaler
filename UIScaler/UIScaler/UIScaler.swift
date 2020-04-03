@@ -64,12 +64,12 @@ public extension UIScaler {
     static func screenHeight() -> Double { Double(UIScreen.main.bounds.height) }
 
     static func x(_ samples: Samples,
-                  extrapBoth: ExtrapolationStyle,
-                  extrapLeft: ExtrapolationStyle?,
-                  extrapRight: ExtrapolationStyle?,
-                  minValue: Double?,
-                  maxValue: Double?,
-                  shouldRound: Bool) -> CGFloat {
+                  extrapBoth: ExtrapolationStyle = .plateau,
+                  extrapLeft: ExtrapolationStyle? = nil,
+                  extrapRight: ExtrapolationStyle? = nil,
+                  minValue: Double? = nil,
+                  maxValue: Double? = nil,
+                  shouldRound: Bool = true) -> CGFloat {
 
         UIScaler(samples,
                  extrapBoth: extrapBoth,
@@ -78,6 +78,23 @@ public extension UIScaler {
                  minValue: minValue,
                  maxValue: maxValue,
                  shouldRound: shouldRound).x
+    }
+
+    static func y(_ samples: Samples,
+                  extrapBoth: ExtrapolationStyle = .plateau,
+                  extrapLeft: ExtrapolationStyle? = nil,
+                  extrapRight: ExtrapolationStyle? = nil,
+                  minValue: Double? = nil,
+                  maxValue: Double? = nil,
+                  shouldRound: Bool = true) -> CGFloat {
+
+        UIScaler(samples,
+                 extrapBoth: extrapBoth,
+                 extrapLeft: extrapLeft,
+                 extrapRight: extrapRight,
+                 minValue: minValue,
+                 maxValue: maxValue,
+                 shouldRound: shouldRound).y
     }
 }
 #endif
