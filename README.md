@@ -12,3 +12,5 @@ github "mindsnack/UIScaler" ~> 0.1.0
 ## TODO
  - Usage documentation
  - Unit tests
+ - Code examples documentation
+ - Example project
