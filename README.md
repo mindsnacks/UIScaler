@@ -11,7 +11,7 @@ github "mindsnack/UIScaler" ~> 0.1.0
 
 Since this is a private repository, you made need to add `--use-ssh` to Carthage update commands.
 ```
-carthage update UIScaler --use-ssh --platform Mac
+carthage update UIScaler --use-ssh --platform iOS
 ```
 
 ## TODO
