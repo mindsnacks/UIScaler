@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		3FAE0B3724356A50005F7479 /* UIScaler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScaler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FAE0B4524356A8F005F7479 /* UIScaler_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScaler_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAE0B4524356A8F005F7479 /* UIScaler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIScaler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAE0B4D24356B36005F7479 /* MSUIScaler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSUIScaler.swift; sourceTree = "<group>"; };
 		3FAE0B4E24356B37005F7479 /* MSUIScalerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUIScalerMacros.h; sourceTree = "<group>"; };
 		3FAE0B4F24356B37005F7479 /* PiecewiseLinearFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiecewiseLinearFunction.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				3FAE0B3724356A50005F7479 /* UIScaler.framework */,
-				3FAE0B4524356A8F005F7479 /* UIScaler_macOS.framework */,
+				3FAE0B4524356A8F005F7479 /* UIScaler.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 			productReference = 3FAE0B3724356A50005F7479 /* UIScaler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FAE0B4424356A8F005F7479 /* UIScaler macOS */ = {
+		3FAE0B4424356A8F005F7479 /* UIScaler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FAE0B4A24356A8F005F7479 /* Build configuration list for PBXNativeTarget "UIScaler macOS" */;
+			buildConfigurationList = 3FAE0B4A24356A8F005F7479 /* Build configuration list for PBXNativeTarget "UIScaler" */;
 			buildPhases = (
 				3FAE0B4024356A8F005F7479 /* Headers */,
 				3FAE0B4124356A8F005F7479 /* Sources */,
@@ -147,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = "UIScaler macOS";
+			name = UIScaler;
 			productName = UIScaler;
-			productReference = 3FAE0B4524356A8F005F7479 /* UIScaler_macOS.framework */;
+			productReference = 3FAE0B4524356A8F005F7479 /* UIScaler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 			projectRoot = "";
 			targets = (
 				3FAE0B3624356A50005F7479 /* UIScaler iOS */,
-				3FAE0B4424356A8F005F7479 /* UIScaler macOS */,
+				3FAE0B4424356A8F005F7479 /* UIScaler */,
 			);
 		};
 /* End PBXProject section */
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FAE0B4A24356A8F005F7479 /* Build configuration list for PBXNativeTarget "UIScaler macOS" */ = {
+		3FAE0B4A24356A8F005F7479 /* Build configuration list for PBXNativeTarget "UIScaler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FAE0B4B24356A8F005F7479 /* Debug */,

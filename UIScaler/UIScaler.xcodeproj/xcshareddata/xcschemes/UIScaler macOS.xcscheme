@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FAE0B4424356A8F005F7479"
-               BuildableName = "UIScaler_macOS.framework"
-               BlueprintName = "UIScaler macOS"
+               BuildableName = "UIScaler.framework"
+               BlueprintName = "UIScaler"
                ReferencedContainer = "container:UIScaler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FAE0B4424356A8F005F7479"
-            BuildableName = "UIScaler_macOS.framework"
-            BlueprintName = "UIScaler macOS"
+            BuildableName = "UIScaler.framework"
+            BlueprintName = "UIScaler"
             ReferencedContainer = "container:UIScaler.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

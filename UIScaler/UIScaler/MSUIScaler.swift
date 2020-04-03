@@ -1,5 +1,9 @@
 import Foundation
 
+#if os(iOS)
+import UIKit
+#endif
+
 // MARK: - MSUIScaler Class Definition
 
 @objc public class MSUIScaler: NSObject {

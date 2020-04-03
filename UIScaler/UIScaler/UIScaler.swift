@@ -1,5 +1,9 @@
 import Foundation
 
+#if os(iOS)
+import UIKit
+#endif
+
 public class UIScaler: NSObject {
 
     public var samples: Samples
