@@ -163,33 +163,33 @@ import UIKit
 @objc public extension MSUIScalerConstants {
 
     var w320: CGFloat { Self.w320 } // iPhone 5/s/c, SE
-    var w375: CGFloat { Self.w375 } // iPhone 6/s, 7, 8, X, XS, 11
+    var w375: CGFloat { Self.w375 } // iPhone 6/s, 7, 8, X, XS, 11 Pro
     var w414: CGFloat { Self.w414 } // iPhone 6+/s+, 7+, 8+, Xr, Xs Max, 11/Pro Max
     var w768: CGFloat { Self.w768 } // iPad 7.9", 9.7"
     var w834: CGFloat { Self.w834 } // iPad 10.5"
     var w1024: CGFloat { Self.w1024 } // iPad 12.9"
 
-    var h568: CGFloat { Self.h568 } // case h568 // iPhone 5/s/c, SE
-    var h667: CGFloat { Self.h667 } // case h667 // iPhone 6/s, 7, 8
-    var h736: CGFloat { Self.h736 } // case h736 // iPhone 6+/s+, 7+, 8+
-    var h812: CGFloat { Self.h812 } // case h812 // iPhone X/s, 11 Pro
-    var h896: CGFloat { Self.h896 } // iPhone Xr, Xs Max, 11, 11 Pro Max
+    var h568: CGFloat { Self.h568 } // iPhone 5/s/c, SE
+    var h667: CGFloat { Self.h667 } // iPhone 6/s, 7, 8
+    var h736: CGFloat { Self.h736 } // iPhone 6+/s+, 7+, 8+
+    var h812: CGFloat { Self.h812 } // iPhone X/s, 11 Pro
+    var h896: CGFloat { Self.h896 } // iPhone Xr, Xs Max, 11/Pro Max
     var h1024: CGFloat { Self.h1024 } // iPad 7.9", 9.7"
     var h1112: CGFloat { Self.h1112 } // iPad 10.5"
     var h1366: CGFloat { Self.h1366 } // iPad 12.9"
 
     static var w320: CGFloat { 320 } // iPhone 5/s/c, SE
-    static var w375: CGFloat { 375 } // iPhone 6/s, 7, 8, X, XS, 11
+    static var w375: CGFloat { 375 } // iPhone 6/s, 7, 8, X, XS, 11 Pro
     static var w414: CGFloat { 414 } // iPhone 6+/s+, 7+, 8+, Xr, Xs Max, 11/Pro Max
     static var w768: CGFloat { 768 } // iPad 7.9", 9.7"
     static var w834: CGFloat { 834 } // iPad 10.5"
     static var w1024: CGFloat { 1024 } // iPad 12.9"
 
-    static var h568: CGFloat { 568 } // case h568 // iPhone 5/s/c, SE
-    static var h667: CGFloat { 667 } // case h667 // iPhone 6/s, 7, 8
-    static var h736: CGFloat { 736 } // case h736 // iPhone 6+/s+, 7+, 8+
-    static var h812: CGFloat { 812 } // case h812 // iPhone X/s, 11 Pro
-    static var h896: CGFloat { 896 } // iPhone Xr, Xs Max, 11, 11 Pro Max
+    static var h568: CGFloat { 568 } // iPhone 5/s/c, SE
+    static var h667: CGFloat { 667 } // iPhone 6/s, 7, 8
+    static var h736: CGFloat { 736 } // iPhone 6+/s+, 7+, 8+
+    static var h812: CGFloat { 812 } // iPhone X/s, 11 Pro
+    static var h896: CGFloat { 896 } // iPhone Xr, Xs Max, 11/Pro Max
     static var h1024: CGFloat { 1024 } // iPad 7.9", 9.7"
     static var h1112: CGFloat { 1112 } // iPad 10.5"
     static var h1366: CGFloat { 1366 } // iPad 12.9"
