@@ -14,6 +14,16 @@ Since this is a private repository, you made need to add `--use-ssh` to Carthage
 carthage update UIScaler --use-ssh --platform iOS
 ```
 
+### Installation with Swift Package Manager
+
+To install UIScaler using the Swift Package Manager support built into Xcode (11.0+), select:
+
+```
+File -> Swift Packages -> Add Package Dependency...
+```
+
+and use https://github.com/mindsnacks/UIScaler.git as the repository URL.
+
 ## TODO
  - Usage documentation
  - Unit tests
