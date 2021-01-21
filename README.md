@@ -22,7 +22,7 @@ To install UIScaler using the Swift Package Manager support built into Xcode (11
 File -> Swift Packages -> Add Package Dependency...
 ```
 
-and use https://github.com/mindsnacks/UIScaler.git the repository URL.
+and use https://github.com/mindsnacks/UIScaler.git as the repository URL.
 
 ## TODO
  - Usage documentation
