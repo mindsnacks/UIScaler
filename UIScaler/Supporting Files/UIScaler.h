@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 //! Project version number for UIScaler.
 FOUNDATION_EXPORT double UIScalerVersionNumber;
