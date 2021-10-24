@@ -123,7 +123,7 @@ public extension UIScaler {
         case w768 // iPad 7.9", 9.7"
         case w834 // iPad 10.5"
         case w1024 // iPad 12.9"
-        
+
         case h568 // iPhone 5/s/c, SE
         case h667 // iPhone 6/s, 7, 8
         case h736 // iPhone 6+/s+, 7+, 8+
