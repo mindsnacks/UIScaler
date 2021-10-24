@@ -116,17 +116,21 @@ public extension UIScaler {
         public init(integerLiteral value: Int) { self = .val(Double(value)) }
 
         case w320 // iPhone 5/s/c, SE
-        case w375 // iPhone 6/s, 7, 8, X, XS, 11
+        case w375 // iPhone 6/s, 7, 8, X, XS, 11, 12 Mini, 13 Mini
+        case w390 // iPhone 12/Pro, iPhone 13/Pro
         case w414 // iPhone 6+/s+, 7+, 8+, Xr, Xs Max, 11/Pro Max
+        case w428 // iPhone 12 Pro Max, iPhone 13 Pro Max
         case w768 // iPad 7.9", 9.7"
         case w834 // iPad 10.5"
         case w1024 // iPad 12.9"
-
+        
         case h568 // iPhone 5/s/c, SE
         case h667 // iPhone 6/s, 7, 8
         case h736 // iPhone 6+/s+, 7+, 8+
-        case h812 // iPhone X/s, 11 Pro
+        case h812 // iPhone X/s, 11 Pro, 12 Mini, 13 Mini
+        case h844 // iPhone 12/Pro, iPhone 13/Pro
         case h896 // iPhone Xr, Xs Max, 11, 11 Pro Max
+        case h926 // iPhone 12 Pro Max, iPhone 13 Pro Max
         case h1024 // iPad 7.9", 9.7"
         case h1112 // iPad 10.5"
         case h1366 // iPad 12.9"
@@ -137,7 +141,9 @@ public extension UIScaler {
             switch self {
             case .w320: return 320
             case .w375: return 375
+            case .w390: return 390
             case .w414: return 414
+            case .w428: return 428
             case .w768: return 768
             case .w834: return 834
             case .w1024: return 1024
@@ -146,7 +152,9 @@ public extension UIScaler {
             case .h667: return 667
             case .h736: return 736
             case .h812: return 812
+            case .h844: return 844
             case .h896: return 896
+            case .h926: return 926
             case .h1024: return 1024
             case .h1112: return 1112
             case .h1366: return 1366
