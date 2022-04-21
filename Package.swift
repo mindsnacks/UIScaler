@@ -24,7 +24,8 @@ let package = Package(
         .target(
             name: "UIScaler",
             dependencies: [],
-			path: "UIScaler"
+			path: "UIScaler",
+            exclude: ["Supporting Files/Info.plist"]
 			)
     ],
     swiftLanguageVersions: [.v5]
